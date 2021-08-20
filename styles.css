@@ -71,8 +71,14 @@
   height: 350px;
 }
 
+.category-container .category:hover {
+  font-size: 20px;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
 .category-container .category-tops {
-  background-image: url("/images/tops.jpg");
+  background-image: url("images/tops.jpg");
   background-size: cover;
   background-position: center;
   -webkit-filter: grayscale(100%);
@@ -80,7 +86,7 @@
 }
 
 .category-container .category-bottoms {
-  background-image: url("/images/bottoms.jpg");
+  background-image: url("images/bottoms.jpg");
   background-size: cover;
   background-position: center 80%;
   -webkit-filter: grayscale(100%);
@@ -88,7 +94,7 @@
 }
 
 .category-container .category-hats {
-  background-image: url("/images/hats.jpg");
+  background-image: url("images/hats.jpg");
   background-size: cover;
   background-position: center;
   -webkit-filter: grayscale(100%);
@@ -96,11 +102,16 @@
 }
 
 .category-container .category-accessories {
-  background-image: url("/images/accessories.jpg");
+  background-image: url("images/accessories.jpg");
   background-size: cover;
   background-position: center;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+}
+
+.category-container .category-accessories:hover {
+  -webkit-filter: grayscale(20%);
+          filter: grayscale(20%);
 }
 
 .category-container .category-header {
