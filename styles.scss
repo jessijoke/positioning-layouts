@@ -1,0 +1,67 @@
+$base-padding: 10px;
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 100vw;
+    padding: 0px $base-padding 0px $base-padding;
+    box-sizing: border-box;
+
+    .nav-categories {
+        display: flex;
+        flex-direction: row;
+        .individual-nav-category {
+            padding: 0px $base-padding 0px $base-padding;
+            box-sizing: border-box;
+        }
+    }
+}
+
+.category-container {    
+    padding: 0px $base-padding 0px $base-padding;
+    box-sizing: border-box;
+    .category-clothes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .category {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+    }
+    .category-tops {
+        background-image: url('/images/tops.jpg');
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%);
+    }
+    .category-bottoms {
+        background-image: url('/images/bottoms.jpg');
+        background-size: cover;
+        background-position: center 80%;
+        filter: grayscale(100%);
+    }
+    .category-hats {
+        background-image: url('/images/hats.jpg');
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%);
+    }
+    .category-accessories {
+        background-image: url('/images/accessories.jpg');
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%);
+    }
+    .category-header {
+        padding: 30px 40px 30px 40px;
+        background-color: rgba($color: #ffffff, $alpha: .75)
+    }
+}
