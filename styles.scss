@@ -1,4 +1,5 @@
 $base-padding: 10px;
+$logo-title-fonts: 'Roboto Condensed', sans-serif;;
 
 .navigation-bar {
     display: flex;
@@ -10,13 +11,48 @@ $base-padding: 10px;
     padding: 0px $base-padding 0px $base-padding;
     box-sizing: border-box;
 
+    //new
+    .div-logo {
+        font-family: $logo-title-fonts;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 5px;
+    }
+    //end new
+
     .nav-categories {
         display: flex;
         flex-direction: row;
-        .individual-nav-category {
-            padding: 0px $base-padding 0px $base-padding;
-            box-sizing: border-box;
+        //new
+        font-family: $logo-title-fonts;
+        letter-spacing: 3px;
+        //new
+        a {
+            text-decoration: none;
+            color: #8f8f8f;
+            transition: color .3s ease-in-out;
+            font-size: 15px;
+            background-color: transparent;
+            .individual-nav-category {
+                padding: 0px $base-padding 0px $base-padding;
+                box-sizing: border-box;
+                
+            }
         }
+         //new
+        a:active { 
+            color: black;
+        }
+        //new
+        a:hover {
+            color: black;
+        }
+        //new
+        .individual-nav-category:last-child {
+            padding-right: 0px;
+        }
+
+        //end new
     }
 }
 

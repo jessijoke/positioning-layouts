@@ -1,9 +1,14 @@
-![Preview of the Tutorial Website](readme-preview.png?raw=true "Website Preview")
+![Preview of the Tutorial Website](readme-preview2.png?raw=true "Website Preview")
 
 # This is a tutorial website made to demo building basic layouts using Flexbox
 
 ## Watch the Demo Video Here
 [Video Demo](https://www.youtube.com/watch?v=GVQrc5syKtU)
+
+## NEW RESOURCES IN THIS BRANCH
+
+[Roboto Condensed Font](https://fonts.google.com/specimen/Roboto+Condensed?selection.family=Bigelow+Rules&category=Sans+Serif&thickness=5&width=6)
+
 
 ## Resources needed for this project:
 
