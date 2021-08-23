@@ -14,9 +14,9 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;;
     //new
     .div-logo {
         font-family: $logo-title-fonts;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 700;
-        letter-spacing: 5px;
+        letter-spacing: 7px;
     }
     //end new
 
@@ -29,10 +29,9 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;;
         //new
         a {
             text-decoration: none;
-            color: #8f8f8f;
+            color: #grey;
             transition: color .3s ease-in-out;
-            font-size: 15px;
-            background-color: transparent;
+            font-size: 17px;
             .individual-nav-category {
                 padding: 0px $base-padding 0px $base-padding;
                 box-sizing: border-box;
@@ -45,7 +44,7 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;;
         }
         //new
         a:hover {
-            color: black;
+            color: purple;
         }
         //new
         .individual-nav-category:last-child {
@@ -71,6 +70,9 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;;
         align-items: center;
         width: 100%;
         height: 350px;
+        font-family: $logo-title-fonts;
+        letter-spacing: 3px;
+        transition: font-size .3s, filter .3s ease-in-out;
     }
     .category:hover {
         font-size: 20px;
