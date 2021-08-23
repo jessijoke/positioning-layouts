@@ -52,16 +52,16 @@
           box-sizing: border-box;
 }
 
+.navigation-bar .nav-categories a .individual-nav-category:last-child {
+  padding-right: 0px;
+}
+
 .navigation-bar .nav-categories a:active {
   color: black;
 }
 
 .navigation-bar .nav-categories a:hover {
   color: purple;
-}
-
-.navigation-bar .nav-categories .individual-nav-category:last-child {
-  padding-right: 0px;
 }
 
 .category-container {

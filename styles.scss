@@ -37,6 +37,9 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;;
                 box-sizing: border-box;
                 
             }
+            .individual-nav-category:last-child {
+                padding-right: 0px;
+            }
         }
          //new
         a:active { 
@@ -47,9 +50,7 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;;
             color: purple;
         }
         //new
-        .individual-nav-category:last-child {
-            padding-right: 0px;
-        }
+        
 
         //end new
     }
