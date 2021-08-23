@@ -40,7 +40,7 @@
 
 .navigation-bar .nav-categories a {
   text-decoration: none;
-  color: #grey;
+  color: grey;
   -webkit-transition: color .3s ease-in-out;
   transition: color .3s ease-in-out;
   font-size: 17px;
@@ -87,6 +87,7 @@
 }
 
 .category-container .category {
+  font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

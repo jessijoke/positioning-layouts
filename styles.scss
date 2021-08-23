@@ -29,7 +29,7 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;;
         //new
         a {
             text-decoration: none;
-            color: #grey;
+            color: grey;
             transition: color .3s ease-in-out;
             font-size: 17px;
             .individual-nav-category {
@@ -65,6 +65,7 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;;
         align-items: center;
     }
     .category {
+        font-size: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
