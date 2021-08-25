@@ -5,6 +5,10 @@
 ## Watch the Demo Video Here
 [Video Demo](https://www.youtube.com/watch?v=GVQrc5syKtU)
 
+## New Resources for this tutorial
+
+[Font Awesome](https://fontawesome.com/)
+
 ## Resources needed for this project:
 
 [Visual Studio Code](https://code.visualstudio.com/)
@@ -16,6 +20,8 @@
 [Live Server for VS Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 [Meyer Web CSS Reset Tool](https://meyerweb.com/eric/tools/css/reset/)
+
+[Roboto Condensed Font](https://fonts.google.com/specimen/Roboto+Condensed?selection.family=Bigelow+Rules&category=Sans+Serif&thickness=5&width=6)
 
 ### Additional Resources
 

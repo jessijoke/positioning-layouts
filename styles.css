@@ -1,12 +1,18 @@
-.nav-menu-bars {
+#nav-menu-bars {
   display: none;
 }
 
-.nav-menu-bars i {
+#nav-menu-bars a i {
+  z-index: 2;
+  color: black;
   font-size: 30px;
   position: fixed;
   right: 15px;
   top: 17px;
+}
+
+#nav-menu-bars a i:hover {
+  color: gold;
 }
 
 .navigation-bar {
@@ -72,7 +78,7 @@
 }
 
 .navigation-bar .nav-categories a:hover {
-  color: purple;
+  color: gold;
 }
 
 .category-container {
@@ -164,5 +170,32 @@
 .category-container .category-header {
   padding: 30px 40px 30px 40px;
   background-color: rgba(255, 255, 255, 0.75);
+}
+
+@media only screen and (max-width: 768px) {
+  .category-container .category-clothes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #nav-menu-bars {
+    display: block;
+  }
+  .navigation-bar .nav-categories {
+    top: 0px;
+    z-index: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: right;
+    background-color: white;
+    padding-top: 250px;
+    display: none;
+  }
+  .navigation-bar .nav-categories .individual-nav-category {
+    margin: 15px 0px 15px 0px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,15 +1,25 @@
 $base-padding: 10px;
 $logo-title-fonts: 'Roboto Condensed', sans-serif;
 
-.nav-menu-bars {
+//new
+
+#nav-menu-bars {
     display: none;
-    i {
-        font-size: 30px;
-        position: fixed;
-        right: 15px;
-        top: 17px;
+    a {
+        i {
+            z-index: 2;
+            color: black;
+            font-size: 30px;
+            position: fixed;
+            right: 15px;
+            top: 17px;
+        }
+        i:hover {
+            color: gold;
+        }
     }
 }
+//end new
 
 .navigation-bar {
     display: flex;
@@ -51,7 +61,8 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;
             color: black;
         }
         a:hover {
-            color: purple;
+            //new
+            color: gold;
         }
     }
 }
@@ -110,5 +121,31 @@ $logo-title-fonts: 'Roboto Condensed', sans-serif;
     .category-header {
         padding: 30px 40px 30px 40px;
         background-color: rgba($color: #ffffff, $alpha: .75)
+    }
+}
+
+//everything from here down is new
+@media only screen and (max-width: 768px) {
+    .category-container  {
+        .category-clothes {
+        flex-direction: column;
+        }
+    }
+    #nav-menu-bars {
+        display: block;
+    }
+    .navigation-bar {
+        .nav-categories {
+            top: 0px;
+            z-index: 1;
+            flex-direction: column;
+            text-align: right;
+            background-color: white;
+            padding-top: 250px;
+            display: none;
+            .individual-nav-category { 
+                margin: 15px 0px 15px 0px;
+            }
+        }
     }
 }
