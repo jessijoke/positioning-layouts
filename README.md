@@ -5,6 +5,12 @@
 ## Watch the Demo Video Here
 [Video Demo](https://www.youtube.com/watch?v=GVQrc5syKtU)
 
+## Other Demos Based on this project
+Styling a Navbar
+[Styling a Navbar Video](https://www.youtube.com/watch?v=ZmClsShVlVI&t=264s)
+[Styling a Navbar Git Branch](https://github.com/jessijoke/positioning-layouts/tree/navbar)
+
+
 ## Resources needed for this project:
 
 [Visual Studio Code](https://code.visualstudio.com/)
